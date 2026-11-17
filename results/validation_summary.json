@@ -1,0 +1,28 @@
+[
+  {
+    "group": "A",
+    "run": "A_seed42",
+    "epochs": 20,
+    "best_epoch": 20,
+    "val_accuracy": 0.7576,
+    "val_loss": 0.7399633918762207,
+    "deterministic_train_accuracy_at_best": 0.891,
+    "seconds": 1332.6035730000006,
+    "train_images_processed": 900000,
+    "val_images_processed": 100000,
+    "deterministic_train_eval_images_processed": 20000
+  },
+  {
+    "group": "B",
+    "run": "B_seed42",
+    "epochs": 20,
+    "best_epoch": 19,
+    "val_accuracy": 0.7018,
+    "val_loss": 0.8399230254173279,
+    "deterministic_train_accuracy_at_best": 0.725,
+    "seconds": 1153.6856967000017,
+    "train_images_processed": 900000,
+    "val_images_processed": 100000,
+    "deterministic_train_eval_images_processed": 20000
+  }
+]

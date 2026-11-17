@@ -1,0 +1,30 @@
+{
+  "group": "B",
+  "seed": 42,
+  "sampler_seed": 42,
+  "sampler_rng": "independent torch.Generator; checkpointed",
+  "config_version": 2,
+  "epochs": 20,
+  "batch": 128,
+  "threads": 4,
+  "optimizer": "SGD",
+  "lr": 0.05,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": "CosineAnnealingLR",
+  "selection": "highest validation accuracy; ties earliest epoch",
+  "split_sha256": "bd1ee89ce902184a3fd1cc52646a8348afb27b52cc8d8dc0bbb160ffa5b44c67",
+  "normalization_mean": [
+    0.49151359443082787,
+    0.48231470971200985,
+    0.4468138379970044
+  ],
+  "normalization_std": [
+    0.2470509270149201,
+    0.24347971893365994,
+    0.2615095063426509
+  ],
+  "deterministic_train_eval_images": 1000,
+  "model": "CNN 32-64-128",
+  "device": "cpu"
+}

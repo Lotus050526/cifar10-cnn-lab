@@ -1,0 +1,46 @@
+{
+  "group": "A",
+  "images": 10000,
+  "correct": 7601,
+  "selected_epoch": 20,
+  "selected_validation_accuracy": 0.7576,
+  "checkpoint_sha256": "a04cae273ef879c3b5cedb6f56e1cf2e403d8b0782069c5d5e1c8a8d90f89c40",
+  "split_sha256": "bd1ee89ce902184a3fd1cc52646a8348afb27b52cc8d8dc0bbb160ffa5b44c67",
+  "accuracy": 0.7601,
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "counts": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "per_class_accuracy": [
+    0.799,
+    0.878,
+    0.642,
+    0.596,
+    0.71,
+    0.667,
+    0.829,
+    0.792,
+    0.846,
+    0.842
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "group": "B",
+  "rule": "two highest directed off-diagonal counts; ties label order; confidence extremes, index tie break",
+  "samples": [
+    {
+      "index": 2175,
+      "true": 3,
+      "predicted": 5,
+      "confidence": 0.27275899052619934,
+      "pair_count": 204,
+      "selection": "lowest confidence"
+    },
+    {
+      "index": 7549,
+      "true": 3,
+      "predicted": 5,
+      "confidence": 0.883457362651825,
+      "pair_count": 204,
+      "selection": "highest confidence"
+    },
+    {
+      "index": 4917,
+      "true": 5,
+      "predicted": 3,
+      "confidence": 0.22724249958992004,
+      "pair_count": 144,
+      "selection": "lowest confidence"
+    },
+    {
+      "index": 2037,
+      "true": 5,
+      "predicted": 3,
+      "confidence": 0.7966876029968262,
+      "pair_count": 144,
+      "selection": "highest confidence"
+    }
+  ]
+}
